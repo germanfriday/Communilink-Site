@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#nv-tabs ul li ul li a {height:100%;}
+.button-wrap {display:inline;}
+span.dropcap.two {text-align:center;text-indent:5px;}
+.post-gallery .blockquote_quotes {width:100%;}
+.hoverimg,.hovervid {height:100%;zoom:1;max-height:100%;}
+.container.shadowreflection .hoverimg, .container.shadowreflection .hovervid,.container.reflection .hoverimg, .container.reflection .hovervid { background-position: 50% 30%; }
+ul.icon-dock li.shop-cart {width:82px;}
+div.icon-dock-wrap {position:relative;width:100%;}

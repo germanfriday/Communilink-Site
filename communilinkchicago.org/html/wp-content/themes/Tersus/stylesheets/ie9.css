@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.nv-sortable .columns.last {float:right !important;}
+.column, 
+.columns 			{margin-right: 4.38%;}

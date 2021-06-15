@@ -1,0 +1,1145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NorthVantage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-09 20:44+0100\n"
+"PO-Revision-Date: 2012-07-09 20:45+0100\n"
+"Last-Translator: NorthVantage <info@northvantage.co.uk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:30
+msgid "We're sorry but that page could not be found."
+msgstr ""
+
+#: ../archive.php:27
+#: ../archive.php:31
+#: ../archive.php:33
+#: ../archive.php:35
+msgid "Archive for "
+msgstr ""
+
+#: ../archive.php:29
+msgid "Posts Tagged"
+msgstr ""
+
+#: ../archive.php:37
+msgid "Author Archive "
+msgstr ""
+
+#: ../archive.php:39
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:51
+#: ../blog.php:69
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: ../archive.php:53
+#: ../blog.php:71
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: ../archive.php:56
+#: ../blog.php:74
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: ../archive.php:58
+#: ../blog.php:76
+msgid "No posts found."
+msgstr ""
+
+#: ../comments.php:11
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:27
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../comments.php:34
+#: ../comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:35
+#: ../comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:36
+#: ../comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../content-aside.php:23
+#: ../content-link.php:35
+#: ../content-quote.php:23
+#: ../content-status.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-aside.php:24
+#: ../content-audio.php:42
+#: ../content-image.php:45
+#: ../content-link.php:36
+#: ../content-quote.php:24
+#: ../content-status.php:30
+#: ../content-video.php:45
+#: ../content.php:49
+msgid "Pages:"
+msgstr ""
+
+#: ../content-aside.php:34
+#: ../content-audio.php:56
+#: ../content-image.php:55
+#: ../content-link.php:46
+#: ../content-quote.php:34
+#: ../content-status.php:40
+#: ../content-video.php:55
+#: ../content.php:59
+msgid "Back to Top"
+msgstr ""
+
+#: ../content-audio.php:39
+#: ../content-image.php:42
+#: ../content-video.php:42
+#: ../content.php:46
+msgid "Read more  &rarr;"
+msgstr ""
+
+#: ../content-page.php:12
+msgid "Pages"
+msgstr ""
+
+#: ../content-page.php:16
+msgid "Edit this entry."
+msgstr ""
+
+#: ../content-status.php:28
+msgid "By "
+msgstr ""
+
+#: ../content-status.php:28
+msgid "On "
+msgstr ""
+
+#: ../functions-buddypress.php:47
+msgid "My Favorites"
+msgstr ""
+
+#: ../functions-buddypress.php:48
+msgid "Accepted"
+msgstr ""
+
+#: ../functions-buddypress.php:49
+msgid "Rejected"
+msgstr ""
+
+#: ../functions-buddypress.php:50
+msgid "Show all comments for this thread"
+msgstr ""
+
+#: ../functions-buddypress.php:51
+msgid "Show all"
+msgstr ""
+
+#: ../functions-buddypress.php:52
+msgid "comments"
+msgstr ""
+
+#: ../functions-buddypress.php:53
+msgid "Close"
+msgstr ""
+
+#: ../functions-buddypress.php:54
+#, php-format
+msgid "%s is a unique identifier for %s that you can type into any message on this site. %s will be sent a notification and a link to your message any time you use it."
+msgstr ""
+
+#: ../functions.php:179
+msgid "Read More"
+msgstr ""
+
+#: ../functions.php:405
+msgid "Name"
+msgstr ""
+
+#: ../functions.php:407
+msgid "Email"
+msgstr ""
+
+#: ../functions.php:409
+msgid "Website"
+msgstr ""
+
+#: ../functions.php:431
+#, php-format
+msgid "%1$s %2$s "
+msgstr ""
+
+#: ../functions.php:437
+#: ../functions.php:476
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:442
+msgid "- Edit"
+msgstr ""
+
+#: ../functions.php:446
+#: ../functions.php:472
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:455
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:469
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:476
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:576
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:726
+msgid " <span class=\"subbreak\">/</span> "
+msgstr ""
+
+#: ../functions.php:780
+msgid "Avg. Customer Rating"
+msgstr ""
+
+#: ../functions.php:786
+msgid "Your Rating"
+msgstr ""
+
+#: ../functions.php:787
+msgid "Saved"
+msgstr ""
+
+#: ../functions.php:838
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../functions.php:840
+#, php-format
+msgid "%d item"
+msgstr ""
+
+#: ../functions.php:940
+msgid "Please read the <strong><a href=\"http://northvantage.co.uk/helpdocs/"
+msgstr ""
+
+#: ../index.php:28
+msgid "Comments"
+msgstr ""
+
+#: ../search.php:27
+msgid "Search Results For: "
+msgstr ""
+
+#: ../search.php:27
+msgid "articles found"
+msgstr ""
+
+#: ../search.php:36
+msgid "No posts found. Try a different search? "
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: ../sitemap.php:29
+msgid "Feeds"
+msgstr ""
+
+#: ../sitemap.php:35
+msgid "Categories"
+msgstr ""
+
+#: ../sitemap.php:38
+msgid "Blog Posts"
+msgstr ""
+
+#: ../sitemap.php:48
+msgid "Archives"
+msgstr ""
+
+#: ../lib/adm/index.php:23
+msgid "Shortcode:"
+msgstr ""
+
+#: ../lib/adm/index.php:58
+#: ../lib/adm/index.php:822
+#: ../lib/adm/index.php:970
+#: ../lib/adm/index.php:1000
+#: ../lib/adm/index.php:1252
+msgid "Select Type:"
+msgstr ""
+
+#: ../lib/adm/index.php:74
+#: ../lib/adm/index.php:171
+#: ../lib/adm/index.php:245
+#: ../lib/adm/index.php:311
+#: ../lib/adm/index.php:334
+#: ../lib/adm/index.php:380
+msgid "Gallery Width:"
+msgstr ""
+
+#: ../lib/adm/index.php:78
+#: ../lib/adm/index.php:175
+#: ../lib/adm/index.php:340
+#: ../lib/adm/index.php:386
+#: ../lib/adm/inc/custom-widgets.php:202
+msgid "Gallery Height:"
+msgstr ""
+
+#: ../lib/adm/index.php:84
+#: ../lib/adm/inc/custom-widgets.php:487
+msgid "Animation Type:"
+msgstr ""
+
+#: ../lib/adm/index.php:99
+msgid "Animation Tweening:"
+msgstr ""
+
+#: ../lib/adm/index.php:115
+msgid "Navigation:"
+msgstr ""
+
+#: ../lib/adm/index.php:125
+msgid "Slides Timeout:"
+msgstr ""
+
+#: ../lib/adm/index.php:138
+#: ../lib/adm/index.php:212
+#: ../lib/adm/index.php:269
+msgid "Gallery Content"
+msgstr ""
+
+#: ../lib/adm/index.php:151
+#: ../lib/adm/index.php:225
+msgid "Columns"
+msgstr ""
+
+#: ../lib/adm/index.php:157
+msgid "Enable Vertical Layout:"
+msgstr ""
+
+#: ../lib/adm/index.php:164
+#: ../lib/adm/index.php:238
+#: ../lib/adm/index.php:304
+#: ../lib/adm/index.php:327
+#: ../lib/adm/index.php:373
+#: ../lib/adm/index.php:1048
+msgid "Enable Lightbox:"
+msgstr ""
+
+#: ../lib/adm/index.php:181
+#: ../lib/adm/index.php:255
+msgid "Image Width"
+msgstr ""
+
+#: ../lib/adm/index.php:185
+#: ../lib/adm/index.php:259
+#: ../lib/adm/index.php:317
+msgid "Image Height"
+msgstr ""
+
+#: ../lib/adm/index.php:191
+msgid "Image Align"
+msgstr ""
+
+#: ../lib/adm/index.php:201
+#: ../lib/adm/index.php:346
+#: ../lib/adm/index.php:392
+msgid "Slide Timeout:"
+msgstr ""
+
+#: ../lib/adm/index.php:231
+msgid "Animated Filtering"
+msgstr ""
+
+#: ../lib/adm/index.php:249
+msgid "Row Height:"
+msgstr ""
+
+#: ../lib/adm/index.php:280
+msgid "Show Startup Mini Titles"
+msgstr ""
+
+#: ../lib/adm/index.php:289
+msgid "Auto Play"
+msgstr ""
+
+#: ../lib/adm/index.php:298
+msgid "Auto Play Timeout:"
+msgstr ""
+
+#: ../lib/adm/index.php:357
+#: ../lib/adm/index.php:1779
+msgid "Animation Effect:"
+msgstr ""
+
+#: ../lib/adm/index.php:402
+msgid "Data Source:"
+msgstr ""
+
+#: ../lib/adm/index.php:424
+msgid "Enter Post / Page ID:"
+msgstr ""
+
+#: ../lib/adm/index.php:428
+#: ../lib/adm/index.php:1882
+#: ../lib/adm/inc/custom-widgets.php:282
+msgid "Select Post Categories:"
+msgstr ""
+
+#: ../lib/adm/index.php:442
+#: ../lib/adm/inc/custom-widgets.php:307
+msgid "Display &amp; Filter by Post Format:"
+msgstr ""
+
+#: ../lib/adm/index.php:455
+#: ../lib/adm/inc/custom-widgets.php:328
+msgid "Select Flickr Set:"
+msgstr ""
+
+#: ../lib/adm/index.php:477
+msgid "Select Slide Set:"
+msgstr ""
+
+#: ../lib/adm/index.php:497
+#: ../lib/adm/inc/custom-widgets.php:356
+msgid "Select Product Categories:"
+msgstr ""
+
+#: ../lib/adm/index.php:520
+#: ../lib/adm/inc/custom-widgets.php:394
+msgid "Select Product Tags:"
+msgstr ""
+
+#: ../lib/adm/index.php:547
+#: ../lib/adm/inc/custom-widgets.php:429
+msgid "Select Gallery Media Categories:"
+msgstr ""
+
+#: ../lib/adm/index.php:565
+msgid "Gallery ID:"
+msgstr ""
+
+#: ../lib/adm/index.php:571
+msgid "Gallery  Title:"
+msgstr ""
+
+#: ../lib/adm/index.php:577
+msgid "Gallery Align:"
+msgstr ""
+
+#: ../lib/adm/index.php:588
+#: ../lib/adm/index.php:1910
+msgid "Image Effect"
+msgstr ""
+
+#: ../lib/adm/index.php:602
+#: ../lib/adm/index.php:1930
+msgid "Posts Limit:"
+msgstr ""
+
+#: ../lib/adm/index.php:606
+#: ../lib/adm/index.php:1973
+msgid "Excerpt Word Limit:"
+msgstr ""
+
+#: ../lib/adm/index.php:612
+#: ../lib/adm/index.php:1940
+msgid "Post Sort By"
+msgstr ""
+
+#: ../lib/adm/index.php:621
+#: ../lib/adm/index.php:1948
+msgid "Post Order By"
+msgstr ""
+
+#: ../lib/adm/index.php:632
+#: ../lib/adm/index.php:812
+#: ../lib/adm/index.php:859
+#: ../lib/adm/index.php:962
+#: ../lib/adm/index.php:992
+#: ../lib/adm/index.php:1025
+#: ../lib/adm/index.php:1116
+#: ../lib/adm/index.php:1190
+#: ../lib/adm/index.php:1244
+#: ../lib/adm/index.php:1267
+#: ../lib/adm/index.php:1284
+#: ../lib/adm/index.php:1333
+#: ../lib/adm/index.php:1386
+#: ../lib/adm/index.php:1450
+#: ../lib/adm/index.php:1500
+#: ../lib/adm/index.php:1525
+#: ../lib/adm/index.php:1625
+#: ../lib/adm/index.php:1700
+#: ../lib/adm/index.php:1748
+#: ../lib/adm/index.php:1863
+#: ../lib/adm/index.php:1979
+msgid "Send Shortcode to Editor &raquo;"
+msgstr ""
+
+#: ../lib/adm/index.php:642
+msgid "Layout:"
+msgstr ""
+
+#: ../lib/adm/index.php:654
+#: ../lib/adm/index.php:1280
+#: ../lib/adm/index.php:1297
+msgid "CSS Classes:"
+msgstr ""
+
+#: ../lib/adm/index.php:662
+#: ../lib/adm/index.php:681
+#: ../lib/adm/index.php:735
+msgid "Column 1 Content:"
+msgstr ""
+
+#: ../lib/adm/index.php:668
+#: ../lib/adm/index.php:687
+#: ../lib/adm/index.php:741
+msgid "Column 2 Content"
+msgstr ""
+
+#: ../lib/adm/index.php:693
+#: ../lib/adm/index.php:747
+msgid "Column 3 Content"
+msgstr ""
+
+#: ../lib/adm/index.php:707
+msgid "1/3 Column Content:"
+msgstr ""
+
+#: ../lib/adm/index.php:713
+msgid "2/3 Column Content"
+msgstr ""
+
+#: ../lib/adm/index.php:719
+msgid "2/3 Column Position"
+msgstr ""
+
+#: ../lib/adm/index.php:753
+msgid "Column 4 Content"
+msgstr ""
+
+#: ../lib/adm/index.php:765
+msgid "1/4 Column Content:"
+msgstr ""
+
+#: ../lib/adm/index.php:771
+msgid "3/4 Column Content"
+msgstr ""
+
+#: ../lib/adm/index.php:777
+msgid "3/4 Column Position"
+msgstr ""
+
+#: ../lib/adm/index.php:791
+msgid "Border:"
+msgstr ""
+
+#: ../lib/adm/index.php:806
+msgid "Columns Height"
+msgstr ""
+
+#: ../lib/adm/index.php:836
+#: ../lib/adm/index.php:1433
+msgid "Box Width: <small class=\"description\">(Default 100%)</small>"
+msgstr ""
+
+#: ../lib/adm/index.php:842
+#: ../lib/adm/index.php:1427
+msgid "Box content:"
+msgstr ""
+
+#: ../lib/adm/index.php:848
+#: ../lib/adm/index.php:1009
+#: ../lib/adm/index.php:1105
+#: ../lib/adm/index.php:1179
+#: ../lib/adm/index.php:1233
+#: ../lib/adm/index.php:1439
+msgid "Alignment:"
+msgstr ""
+
+#: ../lib/adm/index.php:866
+msgid "Button Type:"
+msgstr ""
+
+#: ../lib/adm/index.php:875
+msgid "Color:"
+msgstr ""
+
+#: ../lib/adm/index.php:903
+msgid "Width:"
+msgstr ""
+
+#: ../lib/adm/index.php:916
+msgid "Align:"
+msgstr ""
+
+#: ../lib/adm/index.php:929
+msgid "Button URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:935
+#: ../lib/adm/index.php:954
+msgid "Button Text:"
+msgstr ""
+
+#: ../lib/adm/index.php:941
+msgid "Link Target:"
+msgstr ""
+
+#: ../lib/adm/index.php:984
+msgid "Opacity:"
+msgstr ""
+
+#: ../lib/adm/index.php:1019
+msgid "Block Quote Text:"
+msgstr ""
+
+#: ../lib/adm/index.php:1033
+msgid "Select Effect:"
+msgstr ""
+
+#: ../lib/adm/index.php:1057
+#: ../lib/adm/index.php:1900
+#: ../lib/adm/inc/custom-widgets.php:197
+msgid "Image Width:"
+msgstr ""
+
+#: ../lib/adm/index.php:1063
+#: ../lib/adm/index.php:1904
+#: ../lib/adm/inc/custom-widgets.php:190
+msgid "Image Height:"
+msgstr ""
+
+#: ../lib/adm/index.php:1069
+msgid "Image URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1079
+msgid "Lightbox Media URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1086
+msgid "Link URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1092
+msgid "Image Title Text:"
+msgstr ""
+
+#: ../lib/adm/index.php:1098
+msgid "Enable Title Text Overlay:"
+msgstr ""
+
+#: ../lib/adm/index.php:1124
+msgid "Select Video Type:"
+msgstr ""
+
+#: ../lib/adm/index.php:1135
+msgid "Video Ratio:"
+msgstr ""
+
+#: ../lib/adm/index.php:1144
+msgid "Video Width:"
+msgstr ""
+
+#: ../lib/adm/index.php:1150
+msgid "Video URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1156
+msgid "JW Player Image URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1163
+msgid "Video ID:"
+msgstr ""
+
+#: ../lib/adm/index.php:1169
+msgid "Video  Autoplay:"
+msgstr ""
+
+#: ../lib/adm/index.php:1175
+#: ../lib/adm/index.php:1229
+msgid "Enable Shadow Effect:"
+msgstr ""
+
+#: ../lib/adm/index.php:1198
+msgid "Audio Player Width:"
+msgstr ""
+
+#: ../lib/adm/index.php:1204
+msgid "Audio URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1210
+msgid "Cover Image URL:"
+msgstr ""
+
+#: ../lib/adm/index.php:1217
+msgid "Audio ID:"
+msgstr ""
+
+#: ../lib/adm/index.php:1223
+msgid "Audio  Autoplay:"
+msgstr ""
+
+#: ../lib/adm/index.php:1261
+msgid "Highlighted Text:"
+msgstr ""
+
+#: ../lib/adm/index.php:1274
+msgid "Enter Number of Tabs:"
+msgstr ""
+
+#: ../lib/adm/index.php:1291
+msgid "Enter Number of Panels:"
+msgstr ""
+
+#: ../lib/adm/index.php:1301
+msgid "Collapse Panels:"
+msgstr ""
+
+#: ../lib/adm/index.php:1305
+msgid "Select Arrow Color:"
+msgstr ""
+
+#: ../lib/adm/index.php:1340
+msgid "Select List Type:"
+msgstr ""
+
+#: ../lib/adm/index.php:1352
+#: ../lib/adm/index.php:1399
+#: ../lib/adm/index.php:1466
+msgid "Select Color:"
+msgstr ""
+
+#: ../lib/adm/index.php:1380
+msgid "Enter Number of List Items:"
+msgstr ""
+
+#: ../lib/adm/index.php:1393
+msgid "Reveal Title:"
+msgstr ""
+
+#: ../lib/adm/index.php:1457
+msgid "Drop Cap Style:"
+msgstr ""
+
+#: ../lib/adm/index.php:1494
+msgid "Drop Cap Text:"
+msgstr ""
+
+#: ../lib/adm/index.php:1507
+msgid "Contact Form ID:"
+msgstr ""
+
+#: ../lib/adm/index.php:1513
+msgid "Email To:"
+msgstr ""
+
+#: ../lib/adm/index.php:1519
+msgid "Thank You Message:"
+msgstr ""
+
+#: ../lib/adm/index.php:1639
+msgid "Tip"
+msgstr ""
+
+#: ../lib/adm/index.php:1644
+msgid "Columns:"
+msgstr ""
+
+#: ../lib/adm/index.php:1657
+msgid "Featured Column:"
+msgstr ""
+
+#: ../lib/adm/index.php:1670
+msgid "Featured Color:"
+msgstr ""
+
+#: ../lib/adm/index.php:1707
+msgid "Tooltip Trigger:"
+msgstr ""
+
+#: ../lib/adm/index.php:1713
+msgid "Enable Information Icon:"
+msgstr ""
+
+#: ../lib/adm/index.php:1719
+msgid "Tooltip Content:"
+msgstr ""
+
+#: ../lib/adm/index.php:1755
+msgid "Animator ID:"
+msgstr ""
+
+#: ../lib/adm/index.php:1767
+msgid "Delay:"
+msgstr ""
+
+#: ../lib/adm/index.php:1773
+msgid "Effect Speed:"
+msgstr ""
+
+#: ../lib/adm/index.php:1806
+msgid "Animation Easing:"
+msgstr ""
+
+#: ../lib/adm/index.php:1871
+msgid "Content:"
+msgstr ""
+
+#: ../lib/adm/index.php:1920
+#: ../lib/adm/inc/custom-widgets.php:478
+msgid "Image Align:"
+msgstr ""
+
+#: ../lib/adm/index.php:1934
+msgid "Posts Offset:"
+msgstr ""
+
+#: ../lib/adm/index.php:1957
+msgid "Show Date:"
+msgstr ""
+
+#: ../lib/adm/index.php:1964
+msgid "Show Metadata:"
+msgstr ""
+
+#: ../lib/adm/inc/blog-options.php:248
+#: ../lib/adm/inc/droppanel-options.php:276
+msgid "Save Changes"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:26
+msgid "NorthVantage Widget Image/Text gallery, use posts or a gallery slide set."
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:32
+msgid "NorthVantage Widget Gallery"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:184
+#: ../lib/adm/inc/custom-widgets.php:644
+msgid "Title: (Optional)"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:206
+msgid "Datasource:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:232
+msgid "Post / Page ID:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:457
+msgid "Content Type:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:468
+msgid "Image Effect:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:507
+msgid "Tween Type:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:528
+msgid "Timeout:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:532
+msgid "Excerpt:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:537
+msgid "Sort by:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:545
+msgid "Order by:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:583
+msgid "NorthVantage Contact Form."
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:589
+msgid "NorthVantage Contact Form"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:651
+msgid "Email to address:"
+msgstr ""
+
+#: ../lib/adm/inc/custom-widgets.php:658
+msgid "Thank you message:"
+msgstr ""
+
+#: ../lib/adm/inc/gallery-creator.php:393
+msgid "Save Slide Set"
+msgstr ""
+
+#: ../lib/adm/inc/gallery-post-type.php:8
+msgid "Gallery Media"
+msgstr ""
+
+#: ../lib/adm/inc/gallery-post-type.php:9
+msgid "Gallery Data"
+msgstr ""
+
+#: ../lib/adm/inc/general-options.php:521
+#: ../lib/adm/inc/general-options.php:557
+msgid "Import Data"
+msgstr ""
+
+#: ../lib/adm/inc/skin-manager.php:3120
+msgid "Save Skin Preset"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:296
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:455
+msgid "Advanced Excerpt Options"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:307
+msgid "Excerpt Length:"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:315
+msgid "Use words?"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:320
+msgid "Ellipsis:"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:325
+msgid "(use <a href=\"http://www.w3schools.com/tags/ref_entities.asp\">HTML entities</a>)"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:327
+msgid "Will substitute the part of the post that is omitted in the excerpt."
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:332
+msgid "Finish:"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:337
+msgid "Word"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:341
+msgid "Sentence"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:343
+msgid "Prevents cutting a word or sentence at the end of an excerpt. This option can result in (slightly) longer excerpts."
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:362
+msgid "No Custom Excerpts:"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:367
+msgid "Generate excerpts even if a post has a custom excerpt attached."
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:372
+msgid "Strip Shortcodes:"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:377
+msgid "Remove shortcodes from the excerpt. <em>(recommended)</em>"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:381
+msgid "Keep Markup:"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:388
+msgid "Don't remove any markup"
+msgstr ""
+
+#: ../lib/adm/inc/advanced-excerpt/advanced-excerpt.php:455
+msgid "Excerpt"
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:5
+msgid "Home"
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:26
+#: ../lib/inc/breadcrumbs.php:28
+msgid "Archive by category "
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:79
+msgid "Search results for "
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:82
+msgid "Posts Tagged "
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:89
+msgid "Articles posted by "
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:92
+msgid "Error "
+msgstr ""
+
+#: ../lib/inc/breadcrumbs.php:97
+msgid "Page"
+msgstr ""
+
+#: ../lib/inc/config-header.php:78
+msgid "items"
+msgstr ""
+
+#: ../lib/inc/config-header.php:159
+msgid "Select a Page"
+msgstr ""
+
+#: ../lib/inc/shortcodes.php:2344
+msgid "Read more &rarr;"
+msgstr ""
+
+#: ../lib/inc/shortcodes.php:2350
+msgid "by"
+msgstr ""
+
+#: ../lib/inc/shortcodes.php:2351
+msgid "in"
+msgstr ""
+
+#: ../lib/inc/shortcodes.php:2352
+#: ../lib/inc/classes/metadata-class.php:21
+msgid "No Comments"
+msgstr ""
+
+#: ../lib/inc/shortcodes.php:2352
+#: ../lib/inc/classes/metadata-class.php:21
+msgid "Comment"
+msgstr ""
+
+#: ../lib/inc/sub-functions.php:98
+msgid "Thanks!"
+msgstr ""
+
+#: ../lib/inc/sub-functions.php:99
+msgid "Your email was successfully sent. Your enquiry will be dealt with as soon as possible."
+msgstr ""
+
+#: ../lib/inc/sub-functions.php:102
+msgid "Required fields not completed correctly."
+msgstr ""
+
+#: ../lib/inc/sub-functions.php:112
+msgid "Submit"
+msgstr ""
+
+#: ../lib/inc/sub-functions.php:113
+msgid "Contact Form Submission from "
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:41
+msgid "PageNavi"
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:229
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:232
+msgid "&laquo; &laquo;"
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:233
+msgid "&raquo; &raquo;"
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:234
+msgid "&raquo;"
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:235
+msgid "&laquo;"
+msgstr ""
+
+#: ../lib/inc/wp-pagenavi.php:236
+#: ../lib/inc/wp-pagenavi.php:237
+msgid " "
+msgstr ""
+
+#: ../lib/inc/classes/metadata-class.php:15
+msgid "Created By:"
+msgstr ""
+
+#: ../lib/inc/classes/metadata-class.php:18
+msgid "Categories:"
+msgstr ""
+
+#: ../lib/inc/classes/metadata-class.php:20
+msgid "Comments:"
+msgstr ""
+
+#: ../lib/inc/classes/metadata-class.php:23
+msgid "Tags:"
+msgstr ""
+
+#: ../lib/inc/classes/metadata-class.php:26
+msgid "Edit"
+msgstr ""
+
+#: ../lib/inc/classes/post-categories-class.php:246
+msgid "Filter By: "
+msgstr ""
+
+#: ../lib/inc/classes/post-categories-class.php:248
+msgid "All"
+msgstr ""
+
+#: ../lib/inc/classes/single-class.php:26
+msgid "Related Posts"
+msgstr ""
+
+#: ../lib/inc/classes/single-class.php:57
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+

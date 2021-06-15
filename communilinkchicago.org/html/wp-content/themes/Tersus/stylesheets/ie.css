@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.nv-tabs .ui-tabs-nav li,
+.accordion h4.accordionhead,
+pre,
+xmp,
+input[type=text],
+input[type=password],
+input[type=file],
+textarea,
+select,
+.icon-dock,
+.post-metadata li.post-date,
+.post-metadata li.post-format,
+.sub-header .socialicons,
+.sub-header #togglesocial,
+.sub-header .textresize,
+li.pagebutton,
+.styledbox.help,
+.styledbox.information,
+.styledbox.warning,
+.styledbox.download,
+#message.info,
+.styledbox.general.shaded .boxcontent,
+.nv-pricing-signup,
+.nv-pricing-cost,
+.nv-pricing-title,
+.panelcontent.heading,
+div.item-list-tabs.activity-type-tabs, 
+div.item-list-tabs#object-nav, 
+#groups-directory-form div.item-list-tabs,
+ul.icon-dock #panelsearchform.active #drops  {
+ background-image:url(images/ie-shadow.png);
+ background-position:top left;
+ background-repeat:no-repeat;
+}
+
+ul.icon-dock #panelsearchform.disabled #drops    {background-image:none;}
+.stage-slider {max-width:100%;}
+
+.columns.right.last {margin-right:0;float:right;}
+
+.activity-avatar a {display:block;height:60px;width:60px;}

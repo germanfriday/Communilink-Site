@@ -1,0 +1,1551 @@
+/* 
+Theme Name: Tersus
+
+Support for RTL
+
+*/
+
+/* :: Reset
+--------------------------------------------- */
+
+span.nvcolor {
+ left:2px;
+ right: auto;
+}
+
+/* :: Links
+--------------------------------------------- */
+
+div.autototop a {
+ right: 50%;
+ margin-right: -20px;
+ left: auto;
+ margin-left: auto;
+}
+
+/* :: Typography
+--------------------------------------------- */
+
+/* :: Images
+--------------------------------------------- */
+
+.frame.blackwhite canvas {
+ margin-right:10px;
+ margin-left: auto;
+}
+
+/* :: Lists
+--------------------------------------------- */
+
+ol {
+ margin-right:15px;
+ margin-left: auto;
+}
+
+#primary-wrapper .list ul li:before,#primary-wrapper .list ul li .before,.styledbox.information .boxcontent:before, #message.info p:before, .styledbox.warning .boxcontent:before,.styledbox.download .boxcontent:before,.styledbox.help .boxcontent:before,.styledbox.information .boxcontent .before, #message.info p .before,.styledbox.warning .boxcontent .before,.styledbox.download .boxcontent .before,.styledbox.help .boxcontent .before {
+ margin-right:-30px;
+ margin-left: auto;
+}
+
+div.list ul li {
+ padding-right:30px;
+ padding-left: 0;
+}
+
+/* :: Tables
+--------------------------------------------- */
+
+table thead tr th,
+table tfoot tr th,
+table tbody tr td,
+table tr td,
+table tfoot tr td {
+ text-align: right;
+}
+
+table thead tr th:first-child, table tfoot tr td:first-child {
+ border-right: none;
+ border-left: none;
+}
+
+table thead tr th:last-child, table tfoot tr td:last-child {
+ border-left: none;
+ border-right: none;
+}
+
+/* :: Forms
+--------------------------------------------- */
+
+select {
+ background-position:left top;
+ padding-left:25px;
+ padding-right: 0;
+}
+
+.nv-dark select {
+ background-position:left bottom;
+}
+
+/* :: Contact Form
+--------------------------------------------- */
+
+/* :: Search
+--------------------------------------------- */
+
+.search-wrap {
+ float:right;
+ margin-left:10px;
+ margin-right: auto;
+}
+
+#panelsearchsubmit, 
+#searchsubmit,
+#primary-wrapper #forums_search_submit {
+ left:10px;
+ right: auto;
+}
+
+/* :: Comments
+--------------------------------------------- */
+
+.commentlist {
+ margin-right:0;
+ margin-left: auto;
+}
+
+.commentlist .children li.comment {
+ padding: 15px 40px 0 0;
+}
+
+.commentlist .avatar {
+ left:0;
+ right: auto;
+}
+
+/* Comment Form */
+
+#respond label {
+ margin-right:10px;
+ margin-left: auto;
+}
+
+#respond #cancel-comment-reply-link {
+ margin-right: 10px;
+ margin-left: auto;
+}
+
+#cancel-comment-reply-link {
+ left: 1.625em;
+ right: auto;
+}
+
+/* :: Related Posts
+--------------------------------------------- */
+
+#related_posts li {
+ float:right;
+}
+
+/* :: Misc
+--------------------------------------------- */
+
+#primary-wrap .alignleft,
+.mediawrap.alignleft,
+a img.alignleft {
+ float:left;
+ margin:0 10px 10px 0;
+}
+
+#primary-wrap .alignright, 
+.format-status .avatar,
+.mediawrap.alignright,
+a img.alignright {
+ float:right;
+ margin:0 0 10px 10px;
+}
+
+.alignnone,
+a img.alignnone {
+ margin: 0 0 10px 10px;
+}
+
+.wp-caption.alignnone {
+ margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+ margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+ margin: 5px 20px 20px 0;
+}
+
+.recent-metadata {
+ background:url(images/break-a.png) right top repeat-x;
+}
+
+.author-info #author-description p {
+ padding-left:15px;
+ padding-right: 0;
+}
+
+#author-avatar {
+ text-align:left;
+}
+
+/* :: Background Layers 
+--------------------------------------------- */
+
+div.custom-layer object, div.custom-layer img, div.custom-layer .container object, div.custom-layer .container iframe {
+ right: 0;
+ left: auto;
+}
+
+.screenReader {
+ right: -9999px;
+ left: auto;
+}
+
+/* :: Header
+--------------------------------------------- */
+
+#header-bg {
+ right:0;
+ left: auto;
+}
+
+#header-logo {
+ float:right;
+}
+
+#header-logo.left {
+ float:left;
+ clear:left;
+}
+
+#header-logo.left .description,
+#header-logo.left h1 {
+ text-align:left;
+}
+
+#header-logo.center {
+ margin-right:auto;
+ margin-left:auto;
+ clear:left;
+}
+
+/* :: Header Infobar
+--------------------------------------------- */
+
+.header-infobar .infobar-close {
+ left:1px;
+ right: auto;
+}
+
+/* :: Drop Panel
+--------------------------------------------- */
+
+#toppanel {
+ right: 0;
+ left: auto;
+}
+
+.tab-wrap {
+ right:50%;
+ margin-right:-13px;
+ left: auto;
+ margin-left: auto;
+}
+
+/* :: Main
+--------------------------------------------- */
+
+.nv-pricing-plan:last-child .nv-pricing-container {
+ border-left:1px solid #e9e9e9;
+ border-right: none;
+}
+
+/* :: Main Dark
+--------------------------------------------- */
+
+.nv-dark .nv-pricing-plan:last-child .nv-pricing-container {
+ border-left:1px solid #000;
+ border-right: none;
+}
+
+/* :: Row / Columns 
+--------------------------------------------- */
+
+.column, 
+.columns {
+ margin-left: 4.4%;
+ float: right;
+ margin-right: auto;
+}
+
+.columns.last {
+ margin-left:0;
+ margin-right: auto;
+}
+
+.column:first-child, 
+.columns:first-child {
+ margin-right: 0;
+ margin-left: 4.4%;
+}
+
+[class*="column"] + [class*="column"]:last-child, 
+.columns:last-child {
+ margin-left:0;
+ float:left;
+ margin-right: auto;
+}
+
+.row .offset-by-one {
+ margin-right: 13.1%;
+ margin-left: auto;
+}
+
+.row .offset-by-two {
+ margin-right: 21.8%;
+ margin-left: auto;
+}
+
+.row .offset-by-three {
+ margin-right: 30.5%;
+ margin-left: auto;
+}
+
+.row .offset-by-four {
+ margin-right: 39.2%;
+ margin-left: auto;
+}
+
+.row .offset-by-five {
+ margin-right: 47.9%;
+ margin-left: auto;
+}
+
+.row .offset-by-six {
+ margin-right: 56.6%;
+ margin-left: auto;
+}
+
+.row .offset-by-seven {
+ margin-right: 65.3%;
+ margin-left: auto;
+}
+
+.row .offset-by-eight {
+ margin-right: 74.0%;
+ margin-left: auto;
+}
+
+.row .offset-by-nine {
+ margin-right: 82.7%;
+ margin-left: auto;
+}
+
+.row .offset-by-ten {
+ margin-right: 91.4%;
+ margin-left: auto;
+}
+
+.row .offset-by-one:first-child {
+ margin-right: 8.7%;
+ margin-left: auto;
+}
+
+.row .offset-by-two:first-child {
+ margin-right: 17.4%;
+ margin-left: auto;
+}
+
+.row .offset-by-three:first-child {
+ margin-right: 26.1%;
+ margin-left: auto;
+}
+
+.row .offset-by-four:first-child {
+ margin-right: 34.8%;
+ margin-left: auto;
+}
+
+.row .offset-by-five:first-child {
+ margin-right: 43.5%;
+ margin-left: auto;
+}
+
+.row .offset-by-six:first-child {
+ margin-right: 52.2%;
+ margin-left: auto;
+}
+
+.row .offset-by-seven:first-child {
+ margin-right: 60.9%;
+ margin-left: auto;
+}
+
+.row .offset-by-eight:first-child {
+ margin-right: 69.6%;
+ margin-left: auto;
+}
+
+.row .offset-by-nine:first-child {
+ margin-right: 78.3%;
+ margin-left: auto;
+}
+
+.row .offset-by-ten:first-child {
+ margin-right: 87%;
+ margin-left: auto;
+}
+
+.row .offset-by-eleven:first-child {
+ margin-right: 95.7%;
+ margin-left: auto;
+}
+
+/* :: Footer
+--------------------------------------------- */
+
+.lowfooterright {
+ float:right;
+}
+
+.lowfooterleft {
+ float:left;
+ clear:left;
+}
+
+/* :: Icon Dock
+--------------------------------------------- */
+
+ul.icon-dock {
+ float: left;
+ margin-left: -20px;
+ margin-right: auto;
+}
+
+#header-wrap.disabled ul.icon-dock {
+ margin-left:0;
+ margin-right: auto;
+}
+
+#primary-wrapper #header-wrap.border ul.icon-dock {
+ margin-left:0;
+ margin-right: auto;
+}
+
+ul.icon-dock li {
+ float:right;
+ margin-left:10px;
+ margin-right: auto;
+}
+
+ul.icon-dock li:last-child {
+ margin-left:0;
+ margin-right: auto;
+}
+
+ul.icon-dock li.searchform {
+ margin-left:0;
+ margin-right: auto;
+}
+
+ul.icon-dock #panelsearchform {
+ text-align:left;
+}
+
+ul.icon-dock #panelsearchform #panelsearchsubmit,
+.item-list-tabs #forums_search_submit {
+ left:-4px;
+ right: auto;
+}
+
+/* :: Navigation
+--------------------------------------------- */
+
+#nv-tabs {
+ float:left;
+}
+
+#nv-tabs.left {
+ clear:left;
+}
+
+#nv-tabs.right {
+ float:right;
+}
+
+#nv-tabs.right.match {
+ clear:right;
+}
+
+#nv-tabs.center {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+#nv-tabs ul li {
+ float:right;
+ margin:0 36px 0 0;
+}
+
+#nv-tabs.right ul li {
+ margin-right:0;
+ margin:0 0 0 36px;
+ margin-left: auto;
+}
+
+#nv-tabs ul li.hasdropmenu span.dropmenu-icon {
+ left:auto;
+ right: 0;
+}
+
+#nv-tabs ul li ul li.hasdropmenu span.dropmenu-icon {
+ left:10px;
+ right: auto;
+}
+
+#nv-tabs ul li span.menu-highlight {
+ right:0;
+ left: auto;
+}
+
+#nv-tabs .sub-menu-img {
+ left:-15px;
+ right: auto;
+}
+
+#nv-tabs ul ul {
+ right: 0;
+ left: auto;
+}
+
+#nv-tabs ul li ul li.hasdropmenu a {
+ padding-left:25px;
+ padding-right: 10px;
+}
+
+#nv-tabs ul li ul ul {
+ right:200px;
+ left: auto;
+}
+
+#nv-tabs ul li.extended-menu ul li {
+ float:right;
+}
+
+#nv-tabs ul li.extended-menu.center ul {
+ margin-right:-204px;
+ margin-left: auto;
+}
+
+#nv-tabs ul li.extended-menu.left ul {
+ right:auto;
+ left:0;
+}
+
+#nv-tabs ul li.extended-menu.three-columns.center ul {
+ margin-right:-306px;
+ margin-left: auto;
+}
+
+#nv-tabs ul li.extended-menu ul ul {
+ right:0;
+ left: auto;
+}
+
+/* :: Breadcrumbs
+--------------------------------------------- */
+
+#sub-tabs li.home {
+ padding-right:0;
+ padding-left: 0;
+}
+
+/* :: Pagination
+--------------------------------------------- */
+
+ul.paging {
+ float:left;
+}
+
+ul.paging li {
+ float:right !important;
+ margin:0 0 6px 6px  ;
+}
+
+.splitter li,.splitter ul {
+ margin:0 0 5px 5px  ;
+}
+
+/* :: Twitter Feed
+--------------------------------------------- */
+
+#tweet_quote_wrapper {
+ margin-right:50px;
+ margin-left: auto;
+}
+
+.tweets .twitterfollow {
+ right:-5px;
+ left: auto;
+}
+
+.tweets .tweettitle {
+ float:right;
+ padding-left:12px;
+ margin-left:10px;
+ padding-right: 0;
+ margin-right: auto;
+}
+
+/* :: Text Resize
+--------------------------------------------- */
+
+#content .textresize {
+ float:left;
+ margin-right:5px;
+ margin-left: auto;
+}
+
+#content .textresize ul li {
+ float:right;
+}
+
+ul li.resize-sml span.nvcolor {
+ left:0;
+ right: auto;
+}
+
+ul li.resize-lrg span.nvcolor {
+ right:0;
+ left: auto;
+}
+
+/* :: Social Icons
+--------------------------------------------- */
+
+div.resize-social-wrap {
+ left:0;
+ right: auto;
+}
+
+div#togglesocial {
+ float:left;
+}
+
+.socialicons {
+ float:left;
+ margin-right:10px;
+ margin-left: auto;
+}
+
+#togglesocial.center,
+.socialicons.toggle.center {
+ float:right;
+ right:50%;
+ margin-right:-15px;
+ left: auto;
+ margin-left: auto;
+}
+
+#togglesocial.right, 
+.socialicons.right,.socialicons.toggle.center {
+ float:right;
+ margin-right:0;
+ margin-left: auto;
+}
+
+#content .socialicons ul li, .socialicons ul li, .twitter-wrap div.social-twitter {
+ float:right;
+}
+
+.socialicons.right ul li,.socialicons.center ul li {
+ float:left;
+}
+
+.socialicons ul li span.nvcolor, 
+.socialinit span.nvcolor, 
+.socialhide span.nvcolor, 
+.twitter-wrap span.nvcolor {
+ right:2px;
+ left: auto;
+}
+
+/* :: Widgets
+--------------------------------------------- */
+
+.widget_recent_entries li, 
+.widget_archive li, 
+.widget_links li, 
+.widget_meta li, 
+.widget_categories li,
+.widget_pages li, 
+.widget_nav_menu li, 
+.widget_recent_comments li {
+ background:url(images/break-a.png) right top repeat-x;
+}
+
+.widget_recent_entries ul, 
+.widget_archive ul, 
+.widget_links ul, 
+.widget_meta ul, 
+.widget_categories ul, 
+.widget_pages ul, 
+.widget_nav_menu ul, 
+.widget_recent_comments ul {
+ background:url(images/break-a.png) right bottom repeat-x;
+}
+
+/* :: Calendar Widget
+--------------------------------------------- */
+
+#wp-calendar {
+ border-right:none;
+ border-left: none;
+}
+
+#wp-calendar #next a {
+ text-align: left;
+}
+
+#wp-calendar #prev a {
+ text-align: right;
+}
+
+/* :: Gallery Widget
+--------------------------------------------- */
+
+/* :: Galleries Reset
+--------------------------------------------- */
+
+/* Navigation Frame (Group Slider, Stage, iSlider) */
+
+.slidernav-right {
+ right:-21px;
+ left: auto;
+}
+
+.slidernav-left {
+ left:-21px;
+ right: auto;
+}
+
+.shortcode .slidernav-right {
+ right:-1px;
+ left: auto;
+}
+
+.shortcode .slidernav-left {
+ left:-1px;
+ right: auto;
+}
+
+/* Navigation Background Color Frame */
+
+.slidernav-right span.nvcolor {
+ right:2px;
+ left: auto;
+}
+
+/* Navigation Button */
+
+.slidernav-left .slidernav {
+ left:0;
+ right: auto;
+}
+
+/* Group Slider Navigation (Horizontal) */
+
+/* Group Slider Navigation (Vertical) */
+
+div.vertical .slidernav-right {
+ left:-1px;
+ right:auto;
+}
+
+div.vertical .slidernav-left {
+ left:-1px;
+ right: auto;
+}
+
+div.vertical .slidernav-right span.nvcolor,
+div.vertical .slidernav-left span.nvcolor {
+ right:4px;
+ left: auto;
+}
+
+/* Navigation Light */
+
+/* Navigation Dark */
+
+/* Gallery Media */
+
+.gallery-wrap .container,
+.mediawrap .container {
+ float:right;
+ right:50%;
+ left: auto;
+}
+
+.gallery-wrap .gridimg-wrap,
+.mediawrap .gridimg-wrap {
+ right:-50%;
+ left: auto;
+}
+
+.mediawrap.video .container,
+.islider .container {
+ right:auto;
+ left: auto;
+}
+
+.mediawrap.video .gridimg-wrap,
+.islider .gridimg-wrap {
+ right:auto;
+ left: auto;
+}
+
+.gridimg-wrap {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+.container span.reflect, 
+.container div.reflect,
+.container img,
+.container object, 
+.container iframe {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+span.reflect canvas {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+.jwplayer-wrapper object,
+.jwplayer-wrapper div,
+.jwplayer-wrapper .jwplayer,
+.jwplayer-wrapper .jwplayer img:first-child,
+.container.videotype .videowrap object,
+.container.videotype .videowrap iframe {
+ right: 0;
+ left: auto;
+}
+
+.jwplayer-wrapper .jwplayer div {
+ right:50% !important;
+ margin-right:-25px !important;
+ left: auto;
+ margin-left: auto;
+}
+
+.jwplayer-wrapper .jwplayer div div {
+ right:0 !important;
+ margin-right:0 !important;
+ left: auto;
+ margin-left: auto;
+}
+
+/* Shadows */
+
+.container.shadowreflection div.shadow-wrap,
+.mediawrap.shadowreflection div.shadow-wrap {
+ right:0;
+ left: auto;
+}
+
+/* Lightbox */
+
+.hoverimg,
+.hovervid {
+ right:0;
+ left: auto;
+}
+
+.hoverimg img,
+.hovervid img {
+ right:50%;
+ margin-right:-25px;
+ left: auto;
+ margin-left: auto;
+}
+
+/* Title Overlays */
+
+.gallery-wrap .textoverlay {
+ right:0;
+ left: auto;
+}
+
+.gallery-wrap .title h3, 
+.mediawrap .title h3, 
+.gallery-wrap .title h2, 
+.mediawrap .title h2,
+.excerpt-content h2 {
+ text-align:right;
+}
+
+.accordion-gallery .excerpt, 
+.accordion-gallery .title, 
+.gallery-wrap .title, 
+.mediawrap .title {
+ right:0;
+ left: auto;
+}
+
+/* Text Content */
+
+.panelcontent {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+/* :: Stage Gallery
+--------------------------------------------- */
+
+.container.frame div.stagetextwrap {
+ margin-right:6px;
+ margin-left: auto;
+}
+
+div.stagetextwrap.left {
+ text-align:left;
+}
+
+.stage-slider .gallerytitle.right h2, 
+.stage-slider .gallerytitle.right h3 {
+ text-align:right;
+ margin-right:20px;
+ margin-left: auto;
+}
+
+.stage-slider .gallerytitle.left h2, 
+.stage-slider .gallerytitle.left h3 {
+ text-align:left;
+ margin-left:20px;
+ margin-right: auto;
+}
+
+.control-wrap {
+ left:10px;
+ right: auto;
+}
+
+.stage-slider-wrap.stage .control-wrap {
+ text-align:left;
+}
+
+.stage-slider-wrap .stage-control {
+ left:40px;
+ right: auto;
+}
+
+.post-gallery-wrap .stage-control {
+ left: 0;
+ right: auto;
+}
+
+.stage-control ul li {
+ float:right;
+}
+
+/* :: iSlider Gallery
+--------------------------------------------- */
+
+div.islider-nav-wrap .nvcolor-wrap {
+ right:50%;
+ margin-right:-19px;
+ left: auto;
+ margin-left: auto;
+}
+
+div.islider-nav-wrap span.nvcolor {
+ left:4px;
+ right: auto;
+}
+
+/* :: 3d Gallery
+--------------------------------------------- */
+
+.slider-3d-wrap #slider_3d {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+/* :: Group Slider Gallery
+--------------------------------------------- */
+
+.gallery-wrap .imgalign-right .container {
+ float:right;
+ right:0;
+ margin:0 0 5px 10px;
+ left: auto;
+}
+
+.gallery-wrap .imgalign-left .container {
+ float:left;
+ right:auto;
+ left:0;
+ margin:0 10px 5px 0;
+}
+
+.gallery-wrap .imgalign-right .gridimg-wrap {
+ right:0;
+ left: auto;
+}
+
+.gallery-wrap .imgalign-left .gridimg-wrap {
+ right:auto;
+ left:0;
+}
+
+.horizontal .post-slide.imgalign-right .container {
+ margin:0 0 5px 15px;
+}
+
+.horizontal .post-slide.imgalign-left .container {
+ margin:0 15px 5px 0;
+}
+
+.imgalign-right .panelcontent,
+.imgalign-left .panelcontent {
+ text-align:right;
+}
+
+.gallery-wrap .imgalign-right .panelcontent h3, .gallery-wrap .imgalign-left .panelcontent h3 {
+ text-align:right;
+}
+
+/* :: Accordion Gallery
+--------------------------------------------- */
+
+.accordion-gallery-wrap.center, 
+.accordion-gallery-wrap.stage {
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.accordion-gallery.horizontal li {
+ margin-left: 5px;
+ float: right;
+ margin-right: auto;
+}
+
+.accordion-gallery .shadow {
+ left:0;
+ background:url(images/shadow-b.png) repeat-y left;
+ right: auto;
+}
+
+/* :: Nivo Gallery
+--------------------------------------------- */
+
+.stage-slider-nivo img, 
+.stage-slider-nivo .panel {
+ right:0px;
+ left: auto;
+}
+
+/* If an image is wrapped in a link */
+.stage-slider-nivo a.nivo-imageLink {
+ right:0px;
+ left: auto;
+}
+
+/* The slices and boxes in the Slider */
+
+/* Caption styles */
+
+/* Direction nav styles (e.g. Next & Prev) */
+
+/* :: Gallery Shortcodes
+--------------------------------------------- */
+
+.post-gallery-wrap.left, 
+.grid-gallery.left,
+.group-slider.left,
+.accordion-gallery-wrap.left {
+ float:left;
+}
+
+.post-slider .panel {
+ float:right;
+}
+
+.grid-gallery .panel {
+ float:right !important;
+}
+
+/* :: Image Shortcode
+--------------------------------------------- */
+
+/* :: Button Shortcode / Forms
+--------------------------------------------- */
+
+.button-wrap.alignleft {
+ float:left;
+ margin-right:5px;
+ margin-left: auto;
+}
+
+.button-wrap.aligncenter {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+/* Button Colors */
+
+/* :: List Shortcode
+--------------------------------------------- */
+
+/* :: Blockquotes Shortcode
+--------------------------------------------- */
+
+.blockquote_quotes.right {
+ float:right;
+ margin:0 0 1.2em 1.2em;
+ padding:0em 0em 0em 1em;
+}
+
+.blockquote_quotes .quote.right, 
+#footer .blockquote_quotes .quote.right {
+ float:right;
+ margin-left:6px;
+ margin-right: auto;
+}
+
+.blockquote_quotes .quote.left, 
+#footer .blockquote_quotes .quote.left {
+ float:left;
+ margin-right:4px;
+ margin-left: auto;
+}
+
+.blockquote_quotes .quote.right span,
+.blockquote_quotes .quote.left span {
+ margin-right:-5px;
+ margin-left: auto;
+}
+
+.blockquote_quotes.left {
+ float:left;
+ margin:0 1.5em 1.5em 0.5em;
+ padding:0em 1em 0em 0em;
+}
+
+.blockquote_quotes.center,
+.blockquote_line.center {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+.blockquote_line.right,
+.blockquote_line,
+blockquote {
+ float:right;
+ border-left:2px solid #5f5f5f;
+ margin:0 0 1.5em 1.5em;
+ padding:0em 0em 0em 1em;
+ border-right: none;
+}
+
+.blockquote_line.left {
+ float:left;
+ border-left:none;
+ border-right:2px solid #5f5f5f;
+ margin:0 1.5em 1.5em 0.5em;
+ padding:0em 1em 0em 0em;
+}
+
+/* :: Horizontal Break Shortcode
+--------------------------------------------- */
+
+.hozbreak, hr {
+ background:url(images/break-a.png) repeat-x right bottom;
+}
+
+.hozbreak-top {
+ text-left:left;
+ float:right;
+ background:url(images/break-d.png) no-repeat left top;
+}
+
+.hozbreak-top a {
+ float:left;
+}
+
+/* :: Styled Box Shortcode
+--------------------------------------------- */
+
+.styledbox {
+ margin-right:0;
+ margin-left:0;
+}
+
+.styledbox.information .boxcontent:before, 
+#message.info p:before,
+.styledbox.warning .boxcontent:before,
+.styledbox.download .boxcontent:before,
+.styledbox.help .boxcontent:before,
+.styledbox.information .boxcontent .before, 
+#message.info p .before, 
+.styledbox.warning .boxcontent .before,
+.styledbox.download .boxcontent .before,
+.styledbox.help .boxcontent .before {
+ margin-right:-58px;
+ margin-left: auto;
+}
+
+.styledbox.information .boxcontent,
+.styledbox.warning .boxcontent,
+.styledbox.download .boxcontent,
+.styledbox.help .boxcontent {
+ padding-right:50px;
+ margin-right:15px;
+ padding-left: 0;
+ margin-left: auto;
+}
+
+.styledbox.right {
+ float:right;
+ margin-left: 15px;
+ margin-right: auto;
+}
+
+.styledbox.left {
+ float:left;
+ margin-right:15px;
+ margin-left: auto;
+}
+
+.styledbox.center {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+/* :: Highlights Shortcode
+--------------------------------------------- */
+
+span.quote span.highlight {
+ padding:0 3px 0 0;
+}
+
+/* :: jQuery Accordion
+--------------------------------------------- */
+
+.ui-helper-hidden-accessible {
+ right: -99999999px;
+ left: auto;
+}
+
+/* required comment for clearfix to work in Opera \*/
+
+/* end clearfix */
+.ui-helper-zfix {
+ right: 0;
+ left: auto;
+}
+
+.accordion .ui-icon {
+ right: 5px;
+ left: auto;
+}
+
+.accordion .ui-state-active .ui-icon {
+ right: 4px;
+ left: auto;
+}
+
+.accordion h4.accordionhead {
+ padding:8px 30px 8px 0;
+}
+
+/* :: jQuery Tabs Shortcode
+--------------------------------------------- */
+
+.nv-tabs ul.ui-tabs-nav li {
+ float: right;
+ margin: 0 0 1px -1px  ;
+}
+
+.nv-tabs li a {
+ float: right;
+}
+
+.nv-tabs ul.ui-tabs-nav li {
+ float:right;
+}
+
+/* :: jQuery Reveal Shortcode
+--------------------------------------------- */
+
+.revealbox {
+ margin-right:0;
+ padding-left:0;
+ padding-right:0;
+ margin-left: auto;
+}
+
+.revealbox .ui-icon {
+ right: -3px;
+ left: auto;
+}
+
+.revealbox h4.reveal {
+ padding-right:24px;
+ padding-left: 0;
+}
+
+.revealbox .ui-state-active .ui-icon {
+ right:-4px;
+ left: auto;
+}
+
+.revealbox.center {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+.revealbox.right {
+ float:right;
+}
+
+.revealbox.left {
+ float:left;
+}
+
+/* :: Drop Caps Shortcode
+--------------------------------------------- */
+
+span.dropcap.one {
+ float:right;
+ margin-left:6px;
+ margin-right: auto;
+}
+
+span.dropcap.two {
+ float:right;
+ margin-left:5px;
+ padding-left:6px;
+ padding-right: 0;
+ margin-right: auto;
+}
+
+span.dropcap.two cufon {
+ padding-right:3px;
+ padding-left: 0;
+}
+
+span.dropcap.two .cufon {
+ margin-left:2px;
+ margin-right: auto;
+}
+
+/* :: jQuery Tooltips Shortcode
+--------------------------------------------- */
+
+span.tooltip-icon {
+ background:url(images/tooltip-info.png) no-repeat right top;
+}
+
+/* :: jQuery Content Animator
+--------------------------------------------- */
+
+div.animator-wrap.float {
+ right:0;
+ left: auto;
+}
+
+div.animator-wrap.left {
+ float:left;
+ right:auto;
+ left:0;
+}
+
+#primary-wrapper div.animator-wrap.right img {
+ text-align:right;
+}
+
+#primary-wrapper div.animator-wrap.left img {
+ float:left;
+}
+
+
+ 
+
+/* :: Grid
+-------------------------------------------------- */
+ 
+
+.revealbox h4.reveal {
+ padding-right:24px;
+ padding-left: 0;
+}
+
+.revealbox .ui-state-active .ui-icon {
+ right:-4px;
+ left: auto;
+}
+
+.revealbox.center {
+ margin-right:auto;
+ margin-left:auto;
+}
+
+.revealbox.right {
+ float:right;
+}
+
+.revealbox.left {
+ float:left;
+}
+
+/* :: Drop Caps Shortcode
+--------------------------------------------- */
+
+span.dropcap.one {
+ float:right;
+ margin-left:6px;
+ margin-right: auto;
+}
+
+span.dropcap.two {
+ float:right;
+ margin-left:5px;
+ padding-left:6px;
+ padding-right: 0;
+ margin-right: auto;
+}
+
+span.dropcap.two cufon {
+ padding-right:3px;
+ padding-left: 0;
+}
+
+span.dropcap.two .cufon {
+ margin-left:2px;
+ margin-right: auto;
+}
+
+/* :: jQuery Tooltips Shortcode
+--------------------------------------------- */
+
+span.tooltip-icon {
+ background:url(images/tooltip-info.png) no-repeat right top;
+}
+
+/* :: jQuery Content Animator
+--------------------------------------------- */
+
+div.animator-wrap.float {
+ right:0;
+ left: auto;
+}
+
+div.animator-wrap.left {
+ float:left;
+ right:auto;
+ left:0;
+}
+
+#primary-wrapper div.animator-wrap.right img {
+ text-align:right;
+}
+
+#primary-wrapper div.animator-wrap.left img {
+ float:left;
+}
+
+/* :: Pricing Tables
+--------------------------------------------- */
+
+.nv-pricing-plan {
+ float:right !important;
+}
+
+.nv-pricing-container {
+ border-left:0;
+ border-right: none;
+}
+
+
+/* :: fancyBox Lightbox
+--------------------------------------------- */
+
+.fancybox-wrap {
+ right: 0;
+ left: auto;
+}
+
+#fancybox-loading {
+ right: 50%;
+ margin-right: -22px;
+ left: auto;
+ margin-left: auto;
+}
+
+.fancybox-close {
+ left: -18px;
+ right: auto;
+}
+
+.fancybox-prev {
+ right: 0;
+ left: auto;
+}
+
+.fancybox-next {
+ left: 0;
+ right: auto;
+}
+
+.fancybox-prev span {
+ right: 20px;
+ left: auto;
+}
+
+.fancybox-next span {
+ left: 20px;
+ right: auto;
+}
+
+.fancybox-tmp {
+ right: -9999px;
+ left: auto;
+}
+
+/* Overlay helper */
+
+#fancybox-overlay {
+ right: 0;
+ left: auto;
+}
+
+#fancybox-overlay.overlay-fixed {
+ left: 0;
+ right: auto;
+}
+
+/* Title helper */
+
+.fancybox-title-float-wrap {
+ left: 50%;
+ right: auto;
+}
+
+.fancybox-title-float-wrap .child {
+ margin-left: -100%;
+ margin-right: auto;
+}
+
+.fancybox-title-over-wrap {
+ right: 0;
+ left: auto;
+}
